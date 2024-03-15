@@ -1,0 +1,20 @@
+<style>
+    body h1 {
+      background-color: pink; width: 50%;
+        color: blue;
+        font-style: italic;
+    }
+
+    h2 {
+        color: rgb(19, 151, 19);
+    }
+
+    th {
+        color: rgb(0, 0, 255);
+    }
+
+    tr:nth-child(even) {
+  background-color: #00ffff;
+}
+
+</style>
