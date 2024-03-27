@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@media (max-width: 750px) {
+  #background-video {
+    display: none;
+  }
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+body {
+  background: url("1110251_Animation_Envelope_Glow_1920x1080.mp4") no-repeat;
+  background-size: cover;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+h1 {
+  width: 50%;
+  color: blue;
+  font-style: italic;
+}
+
+h2 {
+  color: rgb(19, 151, 19);
+}
+
+th {
+  color: rgb(0, 0, 255);
+}
